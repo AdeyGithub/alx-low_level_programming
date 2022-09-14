@@ -6,6 +6,7 @@
  */
 void print_alphabet_x10(void)
 {
+
 	int n, co;
 	co = 0;
 
@@ -15,8 +16,7 @@ void print_alphabet_x10(void)
 		{
 			_putchar(n);
 		}
-		
-		co ++;
+		co++;
 
 		 _putchar('\n');
 	}
